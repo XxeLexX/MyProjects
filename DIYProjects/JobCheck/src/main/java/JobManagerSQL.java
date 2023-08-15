@@ -1,5 +1,8 @@
 import java.sql.*;
 
+/**
+ * This is a class that check if the connect to MySQL ok
+ */
 public class JobManagerSQL {
     public void connectDB() {
         String url = "jdbc:mysql://localhost:3306/OfferCheck";
